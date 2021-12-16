@@ -1,0 +1,119 @@
+@font-face {
+    src: url(../style/YujiMai-Regular.ttf);
+    font-family:'YujiMai';
+    
+}
+@font-face {
+    src: url(../style/IndieFlower-Regular.ttf);
+    font-family:'IndieFlower';
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+    background-size: cover;
+    background-image: url("how-to-install-live-wallpaper-android-add-download-make-create.jpg");
+  
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+   
+
+    }
+h1, h2{
+    
+    
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+    color:rgb(15, 224, 15);
+}   
+
+p{
+    text-align: center;
+    color:rgb(47, 240, 240);
+    font-size: 40px;
+    font-family: "YujiMai";
+
+}
+#texte p {
+    color:red;
+    list-style-position: center;
+    text-align: center;
+    font-size: 40px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border-radius: 25px;
+}
+a{
+    
+    place-self: center;
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.918);
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: rgba(116, 47, 116, 0.507);
+    border-radius: 50px;
+}
+iframe{
+    box-sizing: border-box;
+    display:flex;
+    align-self: center;
+    border-radius: 30px;
+    
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(76, 113, 0, 0.5);
+    justify-content: space-around;
+
+}
+.heading{
+    color: #fff;
+}
+nav ul{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li{
+    margin-right: 100px;
+}
+
+nav ul li:hover{
+    background-color: rgb(31, 223, 44);
+    border-radius: 50px;
+
+}
+span{
+    
+    text-align: center;
+    color:rgb(238, 223, 14);
+    font-size: 40px;
+    font-family: "IndieFlower";
+
+}
+form{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color:rgb(113, 178, 238);
+}
+
+
+
