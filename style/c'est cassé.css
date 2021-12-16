@@ -19,13 +19,16 @@ body{
     flex-direction: column;
     
     background-size: cover;
-    background-image: url("how-to-install-live-wallpaper-android-add-download-make-create.jpg");
+    background-image: url("Pour-article-sur-la-reparation-de-telephone-1-1.jpg");
   
     background-repeat: no-repeat ;
     background-attachment: fixed;
    
 
     }
+#date_time {
+    text-shadow: 2px 2px black;
+}
 h1, h2{
     
     
@@ -38,6 +41,7 @@ h1, h2{
 p{
     text-align: center;
     color:rgb(47, 240, 240);
+    text-shadow:2px 2px black;
     font-size: 40px;
     font-family: "YujiMai";
 
@@ -59,7 +63,8 @@ a{
     
     place-self: center;
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.918);
+    color:rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px yellowgreen;
     text-decoration: none;
     
 }
@@ -113,7 +118,22 @@ form{
     letter-spacing: 5px;
     font-size: 30px;
     color:rgb(113, 178, 238);
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.541);
 }
+input{
+    background-color:rgba(179, 255, 0, 0.26);
+    padding:10px;
+    border-radius: 8px;
+
+}
+footer{
+    text-align:center;
+    background-color:rgba(76, 113, 0, 0.5);
+    padding: 40px;
+    font-size:40px;
+    color:rgb(25, 6, 94)
+}
+
 
 
 
