@@ -36,13 +36,19 @@ h1, h2{
     letter-spacing: 10px;
     font-size: 50px;
     color:rgb(15, 224, 15);
+}
+#texte-2{
+    width:1000px;
+    background-color: rgba(76, 113, 0, 0.5);
+    border-radius:30px;
+    margin: auto;
 }   
 
 p{
     text-align: center;
     color:rgb(47, 240, 240);
     text-shadow:2px 2px black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "YujiMai";
 
 }
@@ -50,7 +56,12 @@ p{
     color:red;
     list-style-position: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    width:1000px;
+    background-color: rgba(76, 113, 0, 0.5);
+    border-radius:30px;
+    margin: auto;
+    margin-top:10px;
 }
 img{
     display: block;
